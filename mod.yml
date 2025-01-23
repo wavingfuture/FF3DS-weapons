@@ -1,0 +1,509 @@
+title: FF3 DS Weapons
+originalAuthor: wavingfuture
+description: Low poly weapons from Final Fantasy III replacing every keyblade.
+dependencies: 
+assets:
+# Kingdom Key
+- name: obj/W_EX010.mdlx
+  multi:
+  - name: obj/W_EX010_NM.mdlx
+  - name: obj/W_EX010_TR.mdlx
+  - name: obj/W_EX010_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Royal.mdlx
+- name: remastered/obj/W_EX010.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Royal.dds
+- name: remastered/itempic/item-043.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Royal.dds
+# Oathkeeper
+- name: obj/W_EX010_10.mdlx
+  multi:
+  - name: obj/W_EX010_10_NM.mdlx
+  - name: obj/W_EX010_10_TR.mdlx
+  - name: obj/W_EX010_10_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Kotetsu.mdlx
+- name: remastered/obj/W_EX010_10.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_10_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_10_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_10_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Kotetsu.dds
+- name: remastered/itempic/item-044.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Kotetsu.dds
+# Oblivion
+- name: obj/W_EX010_20.mdlx
+  multi:
+  - name: obj/W_EX010_20_NM.mdlx
+  - name: obj/W_EX010_20_TR.mdlx
+  - name: obj/W_EX010_20_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Masamune.mdlx
+- name: remastered/obj/W_EX010_20.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_20_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_20_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_20_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Masamune.dds
+- name: remastered/itempic/item-045.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Masamune.dds
+# Star Seeker
+- name: obj/W_EX010_30.mdlx
+  multi:
+  - name: obj/W_EX010_30_NM.mdlx
+  - name: obj/W_EX010_30_TR.mdlx
+  - name: obj/W_EX010_30_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Freezing.mdlx
+- name: remastered/obj/W_EX010_30.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_30_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_30_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_30_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Freezing.dds
+- name: remastered/itempic/item-046.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Freezing.dds
+# Hidden Dragon
+- name: obj/W_EX010_40.mdlx
+  multi:
+  - name: obj/W_EX010_40_NM.mdlx
+  - name: obj/W_EX010_40_TR.mdlx
+  - name: obj/W_EX010_40_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Behemoth.mdlx
+- name: remastered/obj/W_EX010_40.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_40_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_40_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_40_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Behemoth.dds
+- name: remastered/itempic/item-047.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Behemoth.dds
+# Heros Crest
+- name: obj/W_EX010_50.mdlx
+  multi:
+  - name: obj/W_EX010_50_NM.mdlx
+  - name: obj/W_EX010_50_TR.mdlx
+  - name: obj/W_EX010_50_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Tyrfing.mdlx
+- name: remastered/obj/W_EX010_50.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_50_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_50_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_50_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Tyrfing.dds
+- name: remastered/itempic/item-048.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Tyrfing.dds
+# Monochrome
+- name: obj/W_EX010_60.mdlx
+  multi:
+  - name: obj/W_EX010_60_NM.mdlx
+  - name: obj/W_EX010_60_TR.mdlx
+  - name: obj/W_EX010_60_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Longsword.mdlx
+- name: remastered/obj/W_EX010_60.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_60_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_60_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_60_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Longsword.dds
+- name: remastered/itempic/item-049.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Longsword.dds
+# Follow The Wind
+- name: obj/W_EX010_70.mdlx
+  multi:
+  - name: obj/W_EX010_70_NM.mdlx
+  - name: obj/W_EX010_70_TR.mdlx
+  - name: obj/W_EX010_70_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Wind.mdlx
+- name: remastered/obj/W_EX010_70.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_70_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_70_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_70_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Wind.dds
+- name: remastered/itempic/item-050.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Wind.dds
+# Circle Of Life
+- name: obj/W_EX010_80.mdlx
+  multi:
+  - name: obj/W_EX010_80_NM.mdlx
+  - name: obj/W_EX010_80_TR.mdlx
+  - name: obj/W_EX010_80_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Elder.mdlx
+- name: remastered/obj/W_EX010_80.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_80_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_80_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_80_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Elder.dds
+- name: remastered/itempic/item-051.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Elder.dds
+# Photon Debugger
+- name: obj/W_EX010_90.mdlx
+  multi:
+  - name: obj/W_EX010_90_NM.mdlx
+  - name: obj/W_EX010_90_TR.mdlx
+  - name: obj/W_EX010_90_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Wizard.mdlx
+- name: remastered/obj/W_EX010_90.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_90_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_90_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_90_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Wizard.dds
+- name: remastered/itempic/item-052.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Wizard.dds
+# Gullwing
+- name: obj/W_EX010_A0.mdlx
+  multi:
+  - name: obj/W_EX010_A0_NM.mdlx
+  - name: obj/W_EX010_A0_TR.mdlx
+  - name: obj/W_EX010_A0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Wightslayer.mdlx
+- name: remastered/obj/W_EX010_A0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_A0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_A0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_A0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Wightslayer.dds
+- name: remastered/itempic/item-053.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Wightslayer.dds
+# Rumbling Rose
+- name: obj/W_EX010_B0.mdlx
+  multi:
+  - name: obj/W_EX010_B0_NM.mdlx
+  - name: obj/W_EX010_B0_TR.mdlx
+  - name: obj/W_EX010_B0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Demon.mdlx
+- name: remastered/obj/W_EX010_B0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_B0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_B0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_B0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Demon.dds
+- name: remastered/itempic/item-054.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Demon.dds
+# Guardian Soul
+- name: obj/W_EX010_C0.mdlx
+  multi:
+  - name: obj/W_EX010_C0_NM.mdlx
+  - name: obj/W_EX010_C0_TR.mdlx
+  - name: obj/W_EX010_C0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Gungnir.mdlx
+- name: remastered/obj/W_EX010_C0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_C0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_C0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_C0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Gungnir.dds
+- name: remastered/itempic/item-055.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Gungnir.dds
+# Wishing Lamp
+- name: obj/W_EX010_D0.mdlx
+  multi:
+  - name: obj/W_EX010_D0_NM.mdlx
+  - name: obj/W_EX010_D0_TR.mdlx
+  - name: obj/W_EX010_D0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Serpent.mdlx
+- name: remastered/obj/W_EX010_D0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_D0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_D0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_D0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Serpent.dds
+- name: remastered/itempic/item-056.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Serpent.dds
+# Decisive Pumpkin
+- name: obj/W_EX010_E0.mdlx
+  multi:
+  - name: obj/W_EX010_E0_NM.mdlx
+  - name: obj/W_EX010_E0_TR.mdlx
+  - name: obj/W_EX010_E0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Blood.mdlx
+- name: remastered/obj/W_EX010_E0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_E0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_E0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_E0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Blood.dds
+- name: remastered/itempic/item-057.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Blood.dds
+# Sleeping Lion
+- name: obj/W_EX010_F0.mdlx
+  multi:
+  - name: obj/W_EX010_F0_NM.mdlx
+  - name: obj/W_EX010_F0_TR.mdlx
+  - name: obj/W_EX010_F0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Dragon.mdlx
+- name: remastered/obj/W_EX010_F0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_F0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_F0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_F0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Dragon.dds
+- name: remastered/itempic/item-058.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Dragon.dds
+# Sweet Memories
+- name: obj/W_EX010_G0.mdlx
+  multi:
+  - name: obj/W_EX010_G0_NM.mdlx
+  - name: obj/W_EX010_G0_TR.mdlx
+  - name: obj/W_EX010_G0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Staff.mdlx
+- name: remastered/obj/W_EX010_G0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_G0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_G0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_G0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Staff.dds
+- name: remastered/itempic/item-059.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Staff.dds
+# Mysterious Abyss
+- name: obj/W_EX010_H0.mdlx
+  multi:
+  - name: obj/W_EX010_H0_NM.mdlx
+  - name: obj/W_EX010_H0_TR.mdlx
+  - name: obj/W_EX010_H0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Rod.mdlx
+- name: remastered/obj/W_EX010_H0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_H0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_H0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_H0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Rod.dds
+- name: remastered/itempic/item-060.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Rod.dds
+# Fatal Crest
+- name: obj/W_EX010_J0.mdlx
+  multi:
+  - name: obj/W_EX010_J0_NM.mdlx
+  - name: obj/W_EX010_J0_TR.mdlx
+  - name: obj/W_EX010_J0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Magic.mdlx
+- name: remastered/obj/W_EX010_J0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_J0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_J0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_J0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Magic.dds
+- name: remastered/itempic/item-061.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Magic.dds
+# Bond Of Flame
+- name: obj/W_EX010_K0.mdlx
+  multi:
+  - name: obj/W_EX010_K0_NM.mdlx
+  - name: obj/W_EX010_K0_TR.mdlx
+  - name: obj/W_EX010_K0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Salamand.mdlx
+- name: remastered/obj/W_EX010_K0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_K0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_K0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_K0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Salamand.dds
+- name: remastered/itempic/item-062.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Salamand.dds
+# Fenrir
+- name: obj/W_EX010_M0.mdlx
+  multi:
+  - name: obj/W_EX010_M0_NM.mdlx
+  - name: obj/W_EX010_M0_TR.mdlx
+  - name: obj/W_EX010_M0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Ultima.mdlx
+- name: remastered/obj/W_EX010_M0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_M0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_M0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_M0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Ultima.dds
+- name: remastered/itempic/item-063.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Ultima.dds
+# Ultima Weapon
+- name: obj/W_EX010_N0.mdlx
+  multi:
+  - name: obj/W_EX010_N0_NM.mdlx
+  - name: obj/W_EX010_N0_TR.mdlx
+  - name: obj/W_EX010_N0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Holy.mdlx
+- name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_N0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_N0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_N0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Holy.dds
+- name: remastered/itempic/item-064.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Holy.dds
+# Two Become One
+- name: obj/W_EX010_P0.mdlx
+  multi:
+  - name: obj/W_EX010_P0_NM.mdlx
+  - name: obj/W_EX010_P0_TR.mdlx
+  - name: obj/W_EX010_P0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Omnirod.mdlx
+- name: remastered/obj/W_EX010_P0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_P0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_P0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_P0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Omnirod.dds
+- name: remastered/itempic/item-300.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Omnirod.dds
+# Winners Proof
+- name: obj/W_EX010_R0.mdlx
+  multi:
+  - name: obj/W_EX010_R0_NM.mdlx
+  - name: obj/W_EX010_R0_TR.mdlx
+  - name: obj/W_EX010_R0_WI.mdlx
+  method: copy
+  source:
+  - name: Model/Wand.mdlx
+- name: remastered/obj/W_EX010_R0.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_R0_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_R0_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_R0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: Texture/Wand.dds
+- name: remastered/itempic/item-301.imd/-0.dds
+  method: copy
+  source:
+  - name: Icon/Wand.dds
